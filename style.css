@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.full-form {
+    width: 600px;
+    height: auto;
+    margin: 100px auto 0;
+    box-sizing: border-box;
+}
+.main-form {
+    background-color: darkseagreen;
+    color: #fff;
+    transition: 2s;
+}
+.main-form:hover {
+    background: rgba(0, 128, 0, 0.84); 
+}
+.full-form .main-form .main-form-content {
+  width: 350px;
+  padding: 15px; 
+  font-size: 20px;
+}
+.full-form .main-form .main-form-content .content {
+   padding-left: 10%
+}
+.full-form .main-form .main-form-content .content input{
+    float: right;
+    width: 170px;
+    padding: 4px;
+    border-color: aliceblue;
+    border-radius: 6px;
+}
+.full-form .main-form .main-form-content input[type="submit"],input[type="reset"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px gray;
+    transition: 0.7s;
+}
+.full-form .main-form .main-form-content input[type="submit"]:hover,input[type="reset"]:hover {
+     background-color: gray;
+    color: #fff;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.84);
+}
+
+.test p:nth-child(2n){
+    color: red;
+}
